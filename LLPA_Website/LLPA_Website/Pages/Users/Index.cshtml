@@ -1,0 +1,98 @@
+﻿@page
+@model LLPA_Website.Pages.Users.IndexModel
+
+@{
+    ViewData["Title"] = "List of Users";
+}
+
+<h3>@ViewData["Title"]</h3>
+
+<div class="row py-3">
+    <div class="col">
+        <p>
+            <a class="btn btn-sm btn-success float-right" asp-page="Create">Create New</a>
+        </p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col">
+        <table class="table table-responsive-sm table-striped" style="width:100%;" id="indexTable">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Users[0].Username)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Users[0].Email)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Users[0].Type)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Users[0].CreatedAt)
+                    </th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Users)
+                {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Username)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @LLPA_Website.Helpers.Roles.RoleNames[item.Type]
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CreatedAt)
+                    </td>
+                    <td>
+                        <a class="btn btn-sm btn-info" asp-page="./Edit" asp-route-id="@item.Id">Edit</a>
+                        <a class="btn btn-sm btn-danger" asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+
+            $('#indexTable').DataTable({
+                "paging": true,
+                "ordering": true,
+                "info": true,
+                "autoWidth": true,
+                "responsive": true,
+                "scrollX": true,
+                dom: 'Bfrtip',
+                buttons: [
+                    {
+                        extend: 'copy',
+                        text: 'Copy',
+                        className: 'btn btn-default',
+                        exportOptions: {
+                            columns: 'th:not(:last-child)'
+                        }
+                    },
+                    {
+                        extend: 'excel',
+                        text: 'Excel',
+                        className: 'btn btn-default',
+                        exportOptions: {
+                            columns: 'th:not(:last-child)'
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+}

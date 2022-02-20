@@ -1,0 +1,19 @@
+F:\Local Disk G\LLPA_Web\LLPA_Website\LLPA_Database_Schmea\bin\Release\LLPA_Database_Schema.dacpac
+F:\Local Disk G\LLPA_Web\LLPA_Website\LLPA_Database_Schmea\bin\Release\LLPA_Database_Schmea.dll
+F:\Local Disk G\LLPA_Web\LLPA_Website\LLPA_Database_Schmea\bin\Release\LLPA_Database_Schmea.pdb
+F:\Local Disk G\LLPA_Web\LLPA_Website\LLPA_Database_Schmea\obj\Release\Model.xml
+F:\Local Disk G\LLPA_Web\LLPA_Website\LLPA_Database_Schmea\obj\Release\refactor.xml
+F:\Local Disk G\LLPA_Web\LLPA_Website\LLPA_Database_Schmea\obj\Release\postdeploy.sql
+F:\Local Disk G\LLPA_Web\LLPA_Website\LLPA_Database_Schmea\obj\Release\predeploy.sql
+F:\Local Disk G\LLPA_Web\LLPA_Website\LLPA_Database_Schmea\obj\Release\LLPA_Database_Schmea.dll
+F:\Local Disk G\LLPA_Web\LLPA_Website\LLPA_Database_Schmea\obj\Release\LLPA_Database_Schmea.pdb
+F:\Local_Disk_G\LLPA_Web\LLPA_Website\LLPA_Database_Schmea\bin\Release\LLPA_Database_Schema.dacpac
+F:\Local_Disk_G\LLPA_Web\LLPA_Website\LLPA_Database_Schmea\bin\Release\LLPA_Database_Schmea.dll
+F:\Local_Disk_G\LLPA_Web\LLPA_Website\LLPA_Database_Schmea\bin\Release\LLPA_Database_Schmea.pdb
+F:\Local_Disk_G\LLPA_Web\LLPA_Website\LLPA_Database_Schmea\obj\Release\LLPA_Database_Schmea.dll
+F:\Local_Disk_G\LLPA_Web\LLPA_Website\LLPA_Database_Schmea\obj\Release\LLPA_Database_Schmea.pdb
+F:\Local_Disk_G\LENDING_Web\LLPA_Website\LLPA_Database_Schmea\bin\Release\LLPA_Database_Schema.dacpac
+F:\Local_Disk_G\LENDING_Web\LLPA_Website\LLPA_Database_Schmea\bin\Release\LLPA_Database_Schmea.dll
+F:\Local_Disk_G\LENDING_Web\LLPA_Website\LLPA_Database_Schmea\bin\Release\LLPA_Database_Schmea.pdb
+F:\Local_Disk_G\LENDING_Web\LLPA_Website\LLPA_Database_Schmea\obj\Release\LLPA_Database_Schmea.dll
+F:\Local_Disk_G\LENDING_Web\LLPA_Website\LLPA_Database_Schmea\obj\Release\LLPA_Database_Schmea.pdb

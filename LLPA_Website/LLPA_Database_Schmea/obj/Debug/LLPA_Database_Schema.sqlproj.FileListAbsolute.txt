@@ -1,0 +1,20 @@
+G:\LLPA_Web\LLPA_Website\LLPA_Database_Schmea\bin\Debug\LLPA_Database_Schema.dacpac
+G:\LLPA_Web\LLPA_Website\LLPA_Database_Schmea\obj\Debug\LLPA_Database_Schmea.dll
+G:\LLPA_Web\LLPA_Website\LLPA_Database_Schmea\obj\Debug\LLPA_Database_Schmea.pdb
+G:\LLPA_Web\LLPA_Website\LLPA_Database_Schmea\bin\Debug\LLPA_Database_Schmea.dll
+G:\LLPA_Web\LLPA_Website\LLPA_Database_Schmea\bin\Debug\LLPA_Database_Schmea.pdb
+G:\LLPA_Web\LLPA_Website\LLPA_Database_Schmea\obj\Debug\LLPA_Database_Schema.sqlproj.AssemblyReference.cache
+F:\Local Disk G\LLPA_Web\LLPA_Website\LLPA_Database_Schmea\bin\Debug\LLPA_Database_Schema.dacpac
+F:\Local Disk G\LLPA_Web\LLPA_Website\LLPA_Database_Schmea\bin\Debug\LLPA_Database_Schmea.dll
+F:\Local Disk G\LLPA_Web\LLPA_Website\LLPA_Database_Schmea\bin\Debug\LLPA_Database_Schmea.pdb
+F:\Local Disk G\LLPA_Web\LLPA_Website\LLPA_Database_Schmea\obj\Debug\LLPA_Database_Schmea.dll
+F:\Local Disk G\LLPA_Web\LLPA_Website\LLPA_Database_Schmea\obj\Debug\LLPA_Database_Schmea.pdb
+F:\Local_Disk_G\LENDING_Web\LLPA_Website\LLPA_Database_Schmea\bin\Debug\LLPA_Database_Schema.dacpac
+F:\Local_Disk_G\LENDING_Web\LLPA_Website\LLPA_Database_Schmea\bin\Debug\LLPA_Database_Schmea.dll
+F:\Local_Disk_G\LENDING_Web\LLPA_Website\LLPA_Database_Schmea\bin\Debug\LLPA_Database_Schmea.pdb
+F:\Local_Disk_G\LENDING_Web\LLPA_Website\LLPA_Database_Schmea\obj\Debug\LLPA_Database_Schema.sqlproj.AssemblyReference.cache
+F:\Local_Disk_G\LENDING_Web\LLPA_Website\LLPA_Database_Schmea\obj\Debug\LLPA_Database_Schmea.dll
+F:\Local_Disk_G\LENDING_Web\LLPA_Website\LLPA_Database_Schmea\obj\Debug\LLPA_Database_Schmea.pdb
+F:\Local_Disk_G\Pizza_Order_AspNet_Selenium\LLPA_Website\LLPA_Database_Schmea\obj\Debug\LLPA_Database_Schema.sqlproj.AssemblyReference.cache
+F:\Local_Disk_G\Pizza_Order_AspNet_Selenium\LLPA_Website\LLPA_Database_Schmea\obj\Debug\LLPA_Database_Schmea.dll
+F:\Local_Disk_G\Pizza_Order_AspNet_Selenium\LLPA_Website\LLPA_Database_Schmea\obj\Debug\LLPA_Database_Schmea.pdb

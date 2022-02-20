@@ -1,0 +1,74 @@
+﻿@page
+@model LLPA_Website.Pages.OutgoingGoods.IndexModel
+
+@{
+    ViewData["Title"] = "Your Orders List";
+}
+
+<h3>@ViewData["Title"]</h3>
+
+
+<div class="row">
+    <div class="col">
+        <table class="table table-responsive-sm table-striped" style="width:100%;" id="indexTable">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.PendingLendList[0].UserName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.PendingLendList[0].Email)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.PendingLendList[0].Quantity)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.PendingLendList[0].Bill)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.PendingLendList[0].Status)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.PendingLendList[0].PizzaName)
+                    </th>
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <th>Action</th>
+                    }
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.PendingLendList)
+                {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UserName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Quantity)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Bill)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Status)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PizzaName)
+                    </td>
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <td>
+                            <a class="btn btn-sm btn-info" asp-page="./Delete" asp-route-id="@item.Id">Approve</a>
+                            <a class="btn btn-sm btn-danger" asp-page="./Edit" asp-route-id="@item.Id">Reject</a>
+                        </td>
+                    }
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

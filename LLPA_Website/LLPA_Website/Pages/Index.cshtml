@@ -1,0 +1,42 @@
+﻿@page "/Index"
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<div class="text-center">
+    <h3 class="display">Welcome To Pizza Order</h3>
+</div><br />
+<div class="text-center">
+    <h5 class="top-heading">Quick Order Your Favourite Pizzas</h5>
+</div><hr /><br />
+
+<div class="row">
+    @foreach (var item in Model.PizzaList)
+    {
+    <div class="col-4" style="margin-top: 10px">
+        <div class="card" style="width: 18rem; margin-left:30px;">
+            <img class="card-img-top" src="@Html.DisplayFor(modelItem => item.Photo)" alt="Card image cap" width="286px" height="150px">
+            <div class="card-body">
+                <h5 class="card-title">@Html.DisplayFor(modelItem => item.Type)</h5>
+                <p class="card-text">@Html.DisplayFor(modelItem => item.Description)</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"></li>
+                <li class="list-group-item">Price: @Html.DisplayFor(modelItem => item.Price)$</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Check Out</a>
+                <a class="btn btn-sm btn-success float-right" asp-page="./Order/Index" asp-route-id="@item.Id">Order</a>
+            </div>
+        </div>
+
+    </div>
+
+    }
+
+</div>
+
+<br />
+

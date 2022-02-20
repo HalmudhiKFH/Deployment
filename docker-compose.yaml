@@ -1,0 +1,12 @@
+version : '3'
+services:
+  mysql:
+    container_name: llpa_db
+    image: mysql:latest
+    command: --lower_case_table_names=1
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "3306:3306"
+    volumes:
+      - "./DbScripts/llpa_mysql.sql:/docker-entrypoint-initdb.d/1.sql"

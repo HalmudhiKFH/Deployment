@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  llpa_website:
+    image: ${DOCKER_REGISTRY-}llpawebsite
+    build:
+      context: .
+      dockerfile: LLPA_Website/Dockerfile
+
+  llpa_api:
+    image: ${DOCKER_REGISTRY-}llpaapi
+    build:
+      context: .
+      dockerfile: LLPA_Api/Dockerfile
+
